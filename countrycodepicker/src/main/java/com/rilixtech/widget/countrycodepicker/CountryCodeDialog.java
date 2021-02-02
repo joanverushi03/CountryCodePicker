@@ -75,9 +75,6 @@ class CountryCodeDialog extends Dialog {
       mTvNoResult.setTypeface(typeface);
     }
 
-    if (mCountryCodePicker.getBackgroundColor() != mCountryCodePicker.getDefaultBackgroundColor()) {
-      mRlyDialog.setBackgroundColor(mCountryCodePicker.getBackgroundColor());
-    }
 
     if (mCountryCodePicker.getDialogTextColor() != mCountryCodePicker.getDefaultContentColor()) {
       int color = mCountryCodePicker.getDialogTextColor();
