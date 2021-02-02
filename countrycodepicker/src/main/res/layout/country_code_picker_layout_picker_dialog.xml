@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dialog_rly"
     android:layout_width="match_parent"
+    android:background="@drawable/dialog_background"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
@@ -14,8 +15,9 @@
       android:layout_height="wrap_content"
       android:layout_margin="10dp"
       android:text="@string/select_country"
+      android:fontFamily="@font/chakra_petch__bold"
       android:textAppearance="?android:attr/textAppearanceLarge"
-      android:textColor="@android:color/secondary_text_light"
+      android:textColor="@android:color/white"
       />
 
   <EditText
@@ -25,9 +27,14 @@
       android:layout_below="@+id/title_tv"
       android:hint="@string/search_hint"
       android:imeOptions="flagNoExtractUi"
+      android:layout_margin="10dp"
       android:maxLines="1"
+      android:textSize="20sp"
+      android:fontFamily="@font/chakra_petch__bold"
+      android:background="@null"
+      android:textColorHint="@color/gray_7"
       android:singleLine="true"
-      android:textColor="@android:color/primary_text_light_nodisable"
+      android:textColor="@android:color/white"
       />
 
   <!--<android.support.v7.widget.RecyclerView-->
@@ -53,7 +60,9 @@
       android:layout_centerHorizontal="true"
       android:layout_marginTop="50dp"
       android:text="@string/no_result_found"
-      android:textColor="@android:color/primary_text_light"
+      android:fontFamily="@font/chakra_petch__bold"
+      android:textSize="18sp"
+      android:textColor="@android:color/white"
       android:visibility="gone"
       />
 

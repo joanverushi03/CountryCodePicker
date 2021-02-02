@@ -64,6 +64,7 @@
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   app:ccp_defaultNameCode="jp"
+                  app:ccp_textFont="@font/chakra_petch__bold"
                   app:ccp_arrowIcon="@drawable/ic_arrow_down_line"
                   app:ccp_textColor="@android:color/holo_orange_dark"
                   android:gravity="center_vertical"

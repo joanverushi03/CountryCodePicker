@@ -2,4 +2,10 @@
 <resources>
   <color name="defaultTextColor">@android:color/black</color>
   <color name="defaultBackgroundColor">@android:color/transparent</color>
+
+  <!-- Grayscale   -->
+  <color name="gray_6">#8F96A6</color>
+  <color name="gray_7">#5C6372</color>
+  <color name="gray_9">#1B2028</color>
+  <color name="gray_10">#101217</color>
 </resources>
