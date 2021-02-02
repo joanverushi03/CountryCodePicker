@@ -64,7 +64,6 @@
         android:adjustViewBounds="true"
         android:alpha="0.6"
         android:src="@drawable/ic_arrow_drop_down_black_24dp"
-        android:tint="@android:color/black"
         />
   </RelativeLayout>
 </RelativeLayout>
