@@ -7,7 +7,7 @@
     <attr format="dimension" name="ccp_textSize"/>
     <attr format="string" name="ccp_textFont"/>
     <attr format="dimension" name="ccp_arrowSize"/>
-    <attr format="integer" name="ccp_arrowIcon"/>
+    <attr format="reference" name="ccp_arrowIcon"/>
     <attr format="string" name="ccp_countryPreference"/>
     <attr format="string" name="ccp_defaultNameCode"/>
     <attr format="boolean" name="ccp_hideNameCode"/>

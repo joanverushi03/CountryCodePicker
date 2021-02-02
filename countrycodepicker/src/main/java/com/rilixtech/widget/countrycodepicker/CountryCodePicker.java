@@ -952,7 +952,6 @@ public class CountryCodePicker extends RelativeLayout {
     public void setTextColor(int contentColor) {
         mTextColor = contentColor;
         mTvSelectedCountry.setTextColor(contentColor);
-        mImvArrow.setColorFilter(contentColor, PorterDuff.Mode.SRC_IN);
     }
 
     public int getBackgroundColor() {
