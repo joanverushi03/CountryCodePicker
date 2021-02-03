@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
@@ -50,6 +51,8 @@ class CountryCodeDialog extends Dialog {
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     requestWindowFeature(Window.FEATURE_NO_TITLE);
+    getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
     setContentView(R.layout.country_code_picker_layout_picker_dialog);
     setupUI();
     setupData();
