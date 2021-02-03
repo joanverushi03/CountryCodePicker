@@ -63,7 +63,6 @@
         android:layout_toEndOf="@+id/selected_country_tv"
         android:layout_toRightOf="@+id/selected_country_tv"
         android:adjustViewBounds="true"
-        android:alpha="0.6"
         android:src="@drawable/ic_arrow_drop_down_black_24dp"
         />
   </RelativeLayout>
